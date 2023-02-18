@@ -1,0 +1,53 @@
+body {
+  padding: 1.5rem;
+  text-align: center;
+  color: #FEF6A4;
+  background-color: #00031D;
+}
+
+#joke-container {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 4rem;
+}
+
+#joke-display {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #FEF6A4;
+}
+
+#joke-date {
+  font-size: 1.75rem;
+  color: #ADB3AB;
+  margin: 1.5rem 0;
+}
+
+#joke-text,
+#joke-loading {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+#ellefont {
+  width: 100%;
+  height: auto;
+}
+#joke-control-random {
+  width: 28%;
+  height: auto;
+  font-size: 2rem;
+  color: #00031D;
+  background-color: #29AEFA;
+}
+#joke-control-prev,
+#joke-control-next {
+  width: 20%;
+  height: auto;
+  font-size: 2rem;
+  color: #00031D;
+  background-color: #29AEFA;	
+}
+.hidden {
+  display: none;
+}
